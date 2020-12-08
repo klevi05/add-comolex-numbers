@@ -1,5 +1,5 @@
 public class numri_imagjinar {
-    public static int numri_dyte;
+    public int numri_dyte;
 
     numri_imagjinar(String numri) {
         if(numri.contains("+")){

@@ -18,15 +18,15 @@ public class complex {
           numri_ne_string nr = new numri_ne_string(numri_pare_);
           numri_imagjinar nr_2 = new numri_imagjinar(numri_pare_);
 
-          numri_pare_real = numri_ne_string.numri_pare;
-          numri_pare_imagjinar = numri_imagjinar.numri_dyte;
+          numri_pare_real = nr.numri_pare;
+          numri_pare_imagjinar = nr_2.numri_dyte;
 
 
           numri_ne_string nr_3 = new numri_ne_string(numri_dyte_);
           numri_imagjinar nr_4 = new numri_imagjinar(numri_dyte_);
 
-          numri_dyte_real = numri_ne_string.numri_pare;
-          numri_dyte_imagjinar = numri_imagjinar.numri_dyte;
+          numri_dyte_real = nr_3.numri_pare;
+          numri_dyte_imagjinar = nr_4.numri_dyte;
 
           veprime vp = new veprime(numri_pare_real, numri_pare_imagjinar, numri_dyte_real, numri_dyte_imagjinar);
       }

@@ -1,9 +1,8 @@
 public class numri_ne_string {
-    public static String numri;
-    public static int numri_pare;
+    public String numri;
+    public int numri_pare;
 
-
-    numri_ne_string(String numri){
+    numri_ne_string(String numri) {
         this.numri = numri;
         //nesee ne stringun qe na vjen permban + kryhen veprimet
         //ne rast te kundert shkon ke linjat me poshte te kodit
